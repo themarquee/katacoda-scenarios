@@ -28,7 +28,7 @@
     "assets": {
       "client": [
         {
-          "file": "src/*",
+          "file": "*",
           "target": "~/java-project/"
         }
       ]
