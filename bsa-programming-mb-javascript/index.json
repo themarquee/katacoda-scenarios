@@ -24,14 +24,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "client": [
-        {
-          "file": "src/weather.html",
-          "target": "/var/www/html/"
-        }
-      ]
     }
   },
   "environment": {
