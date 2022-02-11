@@ -20,10 +20,19 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "foreground.sh"
+      "code": "foreground.sh",
+      "courseData": "background.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "*",
+          "target": "~/"
+        }
+      ]
     }
   },
   "environment": {
