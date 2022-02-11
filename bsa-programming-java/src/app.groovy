@@ -1,6 +1,9 @@
 package app
 
+//@Grab("spring-boot-starter-security")
+@Grab("spring-boot-starter-actuator")
 @Grab("thymeleaf-spring5")
+
 @Controller
 class Example {
 	@RequestMapping("/")
