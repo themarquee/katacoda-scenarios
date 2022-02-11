@@ -24,15 +24,24 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "src/weather.html",
+          "target": "/var/www/html/"
+        }
+      ]
     }
   },
   "environment": {
+    "uilayout": "vscode-terminal",
     "showide": true,
     "showdashboard": true,
     "dashboards": [
       {
-        "name": "Port 8080",
-        "port": 8080
+        "name": "Port 80",
+        "port": 80
       }
     ]
   },
