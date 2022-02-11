@@ -27,7 +27,14 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "Port 8080",
+        "port": 8080
+      }
+    ]
   },
   "backend": {
     "imageid": "openjdk:15"
