@@ -26,7 +26,7 @@ with a zip code field:
     <label for="zipCode">Zip Code:</label>
     <input type="text" size="5" name="zipCode" id="zipCode" value="62521" />
 </p>
-```
+``` {{copy}}
 
 Next, add a placeholder for the location.
 
@@ -34,7 +34,7 @@ Next, add a placeholder for the location.
 <h2 id="location">
     This text will be replaced with the location.
 </h2>
-```
+``` {{copy}}
 
 Finally, cut all the code between the `<script>` and `</script>` tags and move it to `javascript/weather-api.js`{{open}}. 
 
@@ -75,7 +75,7 @@ function fetchWeather() {
         }
     );
 }
-```
+```{{copy}}
 
 Finally, we'll add a listener for the enter keystroke just to make it a little easier to use. Add this following the `$('#button').click(fetchWeather);` command:
 
@@ -86,9 +86,9 @@ $('#zipCode').on('keypress', function (e) {
         e.preventDefault();
     }
 });
-```
+```{{copy}}
 
-Copy the files to the web server: `cp cp javascript/weather-api.* /var/www/html`{{execute}}
+Copy the files to the web server: `cp javascript/weather-api.* /var/www/html`{{execute}}
 
 Open the browser and change the end of the URL from `weather.html` to `weather-api.html`
 
