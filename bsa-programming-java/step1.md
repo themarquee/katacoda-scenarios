@@ -20,7 +20,7 @@ You can clear all the junk out of the terminal with this command:
 
 `clear`{{execute}}
 
-1. Right click on Java and create a new file called `JavaExample.groovy`
+1. Open `java/JavaExample.groovy`{{open}}
 
 1. Copy this code into the file:
 
