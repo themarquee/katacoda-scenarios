@@ -32,15 +32,14 @@
           "target": "/var/www/html/"
         },
         {
-          "file": "weather-original.html",
-          "target": "javascript/weather.html"
+          "file": "weather.html",
+          "target": "javascript"
         }
       ]
     }
   },
   "environment": {
     "uilayout": "vscode-terminal-split",
-    "showide": true,
     "showdashboard": true,
     "dashboards": [
       {
