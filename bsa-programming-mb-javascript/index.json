@@ -2,7 +2,7 @@
   "title": "BSA Programming MB - JavaScript Program",
   "description": "Edit a simple JavaScript program.",
   "difficulty": "Beginner",
-  "time": "3 minutes",
+  "time": "30 minutes",
   "details": {
     "steps": [
       {
@@ -28,14 +28,14 @@
     "assets": {
       "client": [
         {
-          "file": "src/weather.html",
+          "file": "src/*",
           "target": "/var/www/html/"
         }
       ]
     }
   },
   "environment": {
-    "uilayout": "vscode-terminal",
+    "uilayout": "vscode-terminal-split",
     "showide": true,
     "showdashboard": true,
     "dashboards": [
