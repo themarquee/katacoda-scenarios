@@ -1,8 +1,21 @@
-# Heading for Step 1
+# Orientation to the Project
 
-This is some text.
+Please be patient while the environment loads up. 
 
-Here's a single line of runnable code:
+You should see a code editor on top and a terminal on bottom.
 
-`printf 'Hello, world!\n\n'`{{execute}}
+When everything is ready, you'll see something like this in the terminal:
 
+```
+Installing: springboot 2.6.4
+Done installing!
+
+Setting springboot 2.6.4 as default.
+$ 
+$ 
+$ 
+```
+
+You can clear all the junk out of the terminal with this command:
+
+`clear`{{execute}}
