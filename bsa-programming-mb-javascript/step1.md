@@ -28,4 +28,6 @@ Now, in the top of the terminal, you should see a button labeled 'Port 80'. This
 
 Click into the browser's URL bar. Add `/weather.html` to the url and push enter. You should see the sample page load.
 
+Notice the placeholder text that loads under the field. Click the button. What happened? Try different putting values in the Temperature field.
+
 Wait for instructions before hitting continue.
