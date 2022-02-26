@@ -28,8 +28,12 @@
     "assets": {
       "client": [
         {
-          "file": "src/*",
+          "file": "*",
           "target": "/var/www/html/"
+        },
+        {
+          "file": "weather-original.html",
+          "target": "javascript/weather.html"
         }
       ]
     }
