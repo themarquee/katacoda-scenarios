@@ -1,24 +1,22 @@
-package app
+package bsa.mb.programming
 
 //@Grab("spring-boot-starter-security")
 @Grab("spring-boot-starter-actuator")
 @Grab("thymeleaf-spring5")
 
 @Controller
-class Example {
-	public static final  double  LOW_TEMP_F_WARNING=0.;
-    public static final  double  HIGH_TEMP_F_WARNING=100.;
-    public static final  int     MAX_LOOP=5;
+class JavaExample {
+	public static final double LOW_TEMP_F_WARNING=0;
+	public static final double HIGH_TEMP_F_WARNING=100;
 	
-	@RequestMapping("/")
+	@GetMapping("/")
 	public String defaultWeather(Map<String,Object> model) {
 		double temp = 72.0;
 		return prepareWeather(temp);
 	}
 
-	@RequestMapping("/{temp}")
+	@GetMapping("/{temp}")
 	public String defaultWeather(@PathVariable("temp") double temp, Map<String,Object> model) {
-		double temp = 72.0;
 		return prepareWeather(temp);
 	}
 
@@ -29,13 +27,13 @@ class Example {
 			tempInF: temp, 
 			tempInC: fahrenheitToCelcius(temp), 
 			message: "Shhhh... this is a Trade Secret App!!",
-			advice: getAdvice(temp)])
+			advice: getAdvice(temp)]);
 
-			return "home"
+			return "home";
 	}
 
 	private double fahrenheitToCelcius(double tempInF) {
-		return ( tempInF- 32) * 5/9
+		return (tempInF - 32) * 5/9
 	}
 
 	private String getAdvice(double tempInF) {
