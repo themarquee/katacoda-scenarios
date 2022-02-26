@@ -29,7 +29,8 @@
         }
 
         function fetchAdvice(tempF) {
-            if (tempF < 60) return "Grab a jacket!";
+            if (tempF < 50) return "Wear long-johns!";
+            else if ((tempF >= 50) && (tempF < 60)) return "Grab a jacket!";
             else if ((tempF >= 60) && (tempF < 75)) return "Enjoy the nice weather!";
             else return "Stay Hydrated!"; // (tempF >= 75) 
         }

@@ -1,31 +1,14 @@
-# New Scenario Template (Your Title Here)
+# Programming MB - JavaScript Workshop
 
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+In this workshop, you will be exposed to JavaScript and HTML. You will run a sample program embedded in a static web page, then modify it, then we will take it up a notch!
 
-## Description
+## Learning Objectives
 
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
-
-Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
-
-## Learning Objective
-
-- 3-4 bullets
-- of what you
-- will learn
+- Exposure to JavaScript and HTML
+- Demonstrate a simple Web Application
 
 ## Prerequisite Skills
 
-Define the target audience here, and list any prerequisite skills. For example:
-
-This is for software developers with prior experience using Jenkins to deploy web applications.
-
-## Table of Contents
-
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
+This is for novice students. No pre-requisites.
 
 
