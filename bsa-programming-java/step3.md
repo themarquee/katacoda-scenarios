@@ -1,8 +1,8 @@
-# Heading for Step 3
+# Authenticate
 
-This is some text.
+1. Return to the terminal and scroll up. Look for the line that contains `Using generated security password: `. Copy this value (you must highlight and right-click)
 
-Here's a single line of runnable code:
+1. Return to the browser and login using the username `user` and the password you just copied.
 
-`printf 'Cello, world!\n\n'`{{execute}}
+1. What happens now?
 

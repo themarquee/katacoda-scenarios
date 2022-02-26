@@ -1,8 +1,12 @@
-# Heading for Step 2
+# Secure access to the secret API
 
-This is some text.
+Uh oh, we should not see the secret on the internet without authentication!
 
-Here's a single line of runnable code:
+Let's leverage the Spring Security framework to secure our site.
 
-`printf 'Jello, world!\n\n'`{{execute}}
+1. Add this line above `@RestController`
+`@Grab("spring-boot-starter-security")`{{copy}}
 
+1. If Spring does not restart automatically, press `Ctrl+C`, then re-run `spring run java/JavaExample.groovy -- watch`{{execute}}
+
+1. Return to the browser tab and refresh. What is different?

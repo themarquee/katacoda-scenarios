@@ -19,3 +19,23 @@ $
 You can clear all the junk out of the terminal with this command:
 
 `clear`{{execute}}
+
+1. Right click on Java and create a new file called `JavaExample.groovy`
+
+1. Copy this code into the file:
+
+```
+@RestController
+class JavaExample {
+  @RequestMapping("/")
+  String hello() {
+    "Don't look!! This is a trade Secret!"
+  }
+}
+```{{copy}}
+
+1. Run this in the terminal: `spring run java/JavaExample.groovy -- watch`{{execute}}
+
+1. Click on the Port 8080 tab above the terminal
+
+What do you see?
