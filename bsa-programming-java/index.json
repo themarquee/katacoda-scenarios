@@ -50,6 +50,5 @@
   },
   "backend": {
     "imageid": "ubuntu"
-  },
-  "background": "background.sh"
+  }
 }
