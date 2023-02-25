@@ -15,13 +15,13 @@
         "title": "Step1",
         "text": "step1/text.md",
         "foreground": "step1/foreground.sh",
-        "background": "step1/background.sh",
+        "background": "step1/background.sh"
       },
       {
         "title": "Step2",
         "text": "step2/text.md",
         "foreground": "step2/foreground.sh",
-        "background": "step2/background.sh",
+        "background": "step2/background.sh"
       },
       {
         "title": "Step3",
