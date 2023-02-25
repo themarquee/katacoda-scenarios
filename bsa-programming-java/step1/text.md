@@ -4,13 +4,13 @@ Please be patient while the environment loads up.
 
 You should see a code editor on top and a terminal on bottom.
 
-When everything is ready, you'll see something like this in the terminal:
+When everything is ready, you'll see something like this in the terminal (tab 1):
 
 ```
-Installing: springboot 2.6.4
+Installing: springboot 2.7.9
 Done installing!
 
-Setting springboot 2.6.4 as default.
+Setting springboot 2.7.9 as default.
 $ 
 $ 
 $ 
@@ -35,8 +35,8 @@ class JavaExample {
 ```{{copy}}
 
 1. Run these commands in the terminal: 
-  1. `source "$HOME/.sdkman/bin/sdkman-init.sh"`{{execute}}
-  1. `spring run java/JavaExample.groovy -- watch`{{execute}}
+    1. `source "$HOME/.sdkman/bin/sdkman-init.sh"`{{execute}}
+    1. `spring run java/JavaExample.groovy -- watch`{{execute}}
 
 1. Click on the Port 8080 tab above the terminal
 
