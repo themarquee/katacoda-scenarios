@@ -1,8 +1,8 @@
-echo waiting for step1-background-script to finish
-while [ ! -f /tmp/background1 ]; do sleep 1; done
-echo BACKGROUND DONE
+#echo waiting for step1-background-script to finish
+#while [ ! -f /tmp/background1 ]; do sleep 1; done
+#echo BACKGROUND DONE
 
-curl -s "https://get.sdkman.io" | bash
+apt-get -y install zip && curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 sdk version
