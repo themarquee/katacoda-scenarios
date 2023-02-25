@@ -1,1 +1,1 @@
-apt-get -qq update && apt-get -qq install zip
+apt-get -y install zip
