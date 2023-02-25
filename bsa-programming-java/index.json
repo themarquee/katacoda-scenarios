@@ -4,26 +4,40 @@
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
+    "intro": {
+      "title": "Intro",
+      "text": "intro/text.md",
+      "foreground": "intro/foreground.sh",
+      "background": "intro/background.sh"
+    },
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Step1",
+        "text": "step1/text.md",
+        "foreground": "step1/foreground.sh",
+        "background": "step1/background.sh",
+        "verify": "step1/verify.sh"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
+        "title": "Step2",
+        "text": "step2/text.md",
+        "foreground": "step2/foreground.sh",
+        "background": "step2/background.sh",
+        "verify": "step2/verify.sh"
       },
       {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "Step3",
+        "text": "step3/text.md",
+        "foreground": "step3/foreground.sh",
+        "background": "step3/background.sh",
+        "verify": "step3/verify.sh"
       }
     ],
-    "intro": {
-      "text": "intro.md",
-      "code": "foreground.sh"
-    },
     "finish": {
-      "text": "finish.md"
+      "title": "Finish",
+      "text": "finish/text.md",
+      "foreground": "finish/foreground.sh",
+      "background": "finish/background.sh"
     },
     "assets": {
       "client": [
@@ -34,18 +48,11 @@
       ]
     }
   },
-  "environment": {
-    "uilayout": "editor-terminal",
-    "showdashboard": true,
-    "dashboards": [
-      {
-        "name": "Port 8080",
-        "port": 8080
-      }
-    ]
+  "interface": {
+    "layout": "ide"
   },
   "backend": {
-    "imageid": "ubuntu20.04"
+    "imageid": "ubuntu"
   },
   "background": "background.sh"
 }
