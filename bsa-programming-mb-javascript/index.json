@@ -26,7 +26,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [
+      "host01": [
         {
           "file": "*",
           "target": "/var/www/html/"
@@ -38,17 +38,10 @@
       ]
     }
   },
-  "environment": {
-    "uilayout": "vscode-terminal-split",
-    "showdashboard": true,
-    "dashboards": [
-      {
-        "name": "Port 80",
-        "port": 80
-      }
-    ]
+  "interface": {
+    "layout": "ide"
   },
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "ubuntu"
   }
 }
