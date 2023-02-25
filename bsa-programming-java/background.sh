@@ -1,1 +1,2 @@
-apt-get -y install zip
+mkdir java
+touch java/JavaExample.groovy
