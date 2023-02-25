@@ -1,4 +1,4 @@
-apt-get -qq update && apt-get -qq --yes --force-yes install zip
+apt-get -qq update && apt-get -qq install zip
 sleep 10s
 
 curl -s "https://get.sdkman.io" | bash
