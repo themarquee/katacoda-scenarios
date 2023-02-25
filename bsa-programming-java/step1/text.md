@@ -20,7 +20,7 @@ You can clear all the junk out of the terminal with this command:
 
 `clear`{{execute}}
 
-1. Open `java/JavaExample.groovy`{{open}}
+1. Open `java/JavaExample.groovy`
 
 1. Copy this code into the file:
 
@@ -34,7 +34,9 @@ class JavaExample {
 }
 ```{{copy}}
 
-1. Run this in the terminal: `spring run java/JavaExample.groovy -- watch`{{execute}}
+1. Run these commands in the terminal: 
+  1. `source "$HOME/.sdkman/bin/sdkman-init.sh"`{{execute}}
+  1. `spring run java/JavaExample.groovy -- watch`{{execute}}
 
 1. Click on the Port 8080 tab above the terminal
 
