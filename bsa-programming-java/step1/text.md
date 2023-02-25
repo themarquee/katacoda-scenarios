@@ -38,6 +38,6 @@ class JavaExample {
     1. `source "$HOME/.sdkman/bin/sdkman-init.sh"`{{execute}}
     1. `spring run java/JavaExample.groovy -- watch`{{execute}}
 
-1. Click on the Port 8080 tab above the terminal
+1. Click here to see the web service: {{TRAFFIC_HOST1_8080}}
 
 What do you see?
