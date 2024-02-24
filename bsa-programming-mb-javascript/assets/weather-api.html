@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF8" />
+    <title>Weather-inator</title>
+</head>
+
+<body>
+    <h1>Weather-inator</h1>
+    <div>
+        <p>
+            <label for="temperature">Temperature (°F):</label>
+            <input type="text" size="5" name="temperature" id="temperature" value="72" />
+        </p>
+        <button id="button">Get the Weather Report</button>
+    </div>
+    <p id="weather">
+        This text will be replaced with the weather.
+    </p>
+    <h3> Advice: <span id="advice"> This will be replaced with advice. </span> </h3>
+</body>
+
+<footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        function farenheitToCelcius(tempF) {
+            return (5 / 9 * (tempF - 32)).toFixed(1);
+        }
+
+        function fetchAdvice(tempF) {
+            if (tempF < 60) return "Grab a jacket!";
+            else if ((tempF >= 60) && (tempF < 75)) return "Enjoy the nice weather!";
+            else return "Stay Hydrated!"; // (tempF >= 75) 
+        }
+
+        function fetchWeather() {
+            var tempInF = $('#temperature').val();
+            console.log(tempInF);
+
+            var tempInC = farenheitToCelcius(tempInF);
+            
+            var weather = `The temperature is ${tempInF} °F (${tempInC} °C)`;
+            $('#weather').html(weather);
+
+            var advice = fetchAdvice(tempInF);
+            console.log(advice);
+            $('#advice').html(advice);
+        }
+
+        $('#button').click(fetchWeather);
+
+    </script>
+</footer>
+
+</html>
