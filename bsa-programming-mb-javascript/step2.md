@@ -2,7 +2,7 @@
 
 Let's take a look at the code that makes this work.
 
-Please open `weather/weather.html`{{open}} in the editor if you haven't already.
+Please open `weather/weather.html` in the editor if you haven't already.
 
 Your instructor will walk you through the HTML (the part you see in the browser) and then the JavaScript (the part that does stuff and changes what you see). Please pay attention and ask questions, it will help you with the next steps.
 

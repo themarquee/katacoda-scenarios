@@ -14,11 +14,13 @@ Under the `weather-api` directory, you should see 2 files:
 * `weather-api/weather-api.html`
 * `weather-api/weather-api.js`
 
-`weather-api.html` will be our new weather page. Go ahead and copy the contents of your modified `weather.html` page to `weather-api/weather-api.html`. Click this to copy your changes automatically: `cp weather/weather.html weather-api/weather-api.html`{{execute}}
+`weather-api.html` will be our new weather page. Go ahead and copy the contents of your modified `weather.html` page to `weather-api/weather-api.html`. 
+
+Click this to copy your changes automatically: `cp weather/weather.html weather-api/weather-api.html`{{execute}}
 
 It is good practice to externalize your javascript to its own file, so we'll use `weather-api/weather-api.js` for that.
 
-Open `weather-api/weather-api.html`{{open}} and replace the temp field:
+Open `weather-api/weather-api.html` and replace the temp field:
 
 ```
 <p>
@@ -34,7 +36,7 @@ with a zip code field:
     <label for="zipCode">Zip Code:</label>
     <input type="text" size="5" name="zipCode" id="zipCode" value="62521" />
 </p>
-``` {{copy}}
+```{{copy}}
 
 Next, add a placeholder for the location.
 
@@ -42,7 +44,7 @@ Next, add a placeholder for the location.
 <h2 id="location">
     This text will be replaced with the location.
 </h2>
-``` {{copy}}
+```{{copy}}
 
 Finally, cut all the code between the `<script>` and `</script>` tags and move it to `weather-api/weather-api.js`{{open}}. 
 

@@ -11,7 +11,7 @@ Processing triggers for ufw (0.36-6ubuntu1) ...
 Processing triggers for systemd (245.4-4ubuntu3.15) ...
 Processing triggers for man-db (2.9.1-1) ...
 Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
-$ 
+ubuntu $ 
 ```
 
 If you want, you can clear all the junk out of the terminal with this command:
@@ -24,7 +24,7 @@ Click on the file called `weather.html`. This is the sample web page we will use
 
 If you accidentally make a mistake, there is a copy of the original `weather.html` file under `backup`.
 
-Next, click here: {{TRAFFIC_HOST1_80}}. This button and it will open a browser that is pointed at your killercoda environment using port 80. 80 is the standard web port. You should see a 'Welcome to nginx!' message.
+Next, click here: {{TRAFFIC_HOST1_80}}/weather.html. This button and it will open a browser that is pointed at your killercoda environment using port 80. 80 is the standard web port. You should see a 'Welcome to nginx!' message.
 
 Click into the browser's URL bar. Add `/weather.html` to the url and push enter. You should see the sample page load.
 
