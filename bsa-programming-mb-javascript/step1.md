@@ -24,9 +24,9 @@ Click on the file called `weather.html`. This is the sample web page we will use
 
 If you accidentally make a mistake, there is a copy of the original `weather.html` file under `backup`.
 
-Next, click here: {{TRAFFIC_HOST1_80}}/weather.html. This button and it will open a browser that is pointed at your killercoda environment using port 80. 80 is the standard web port. You should see a 'Welcome to nginx!' message.
+Next, click here: {{TRAFFIC_HOST1_80}} . This button and it will open a browser that is pointed at your killercoda environment using port 80. 80 is the standard web port. You should see a 'Welcome to nginx!' message.
 
-Click into the browser's URL bar. Add `/weather.html` to the url and push enter. You should see the sample page load.
+Clicking here: {{TRAFFIC_HOST1_80}}/weather.html should open the weather page we'll be working on.
 
 Notice the placeholder text that loads under the field. Click the button. What happened? Try different putting values in the Temperature field.
 

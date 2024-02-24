@@ -49,9 +49,16 @@ Next, add a placeholder for the location.
 Finally, cut all the code between the `<script>` and `</script>` tags and move it to `weather-api/weather-api.js`{{open}}. 
 
 * Note: leave this line alone:
-`<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>`
 
-Replace the now empty script tags (`<script></script>`) in `weather-api.html` with this: `<script src="weather-api.js"></script>` to reference the new javascript file.
+```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+```
+
+To reference the new javascript file, delete the now empty script tags (`<script></script>`) in `weather-api.html` and replace them with this: 
+
+```
+<script src="weather-api.js"></script>
+```{{copy}}
 
 Next, replace the `fetchWeather` function in `weather-api.js` with the following:
 
@@ -100,7 +107,7 @@ $('#zipCode').on('keypress', function (e) {
 
 Copy the files to the web server: `cp weather-api/weather-api.* /var/www/html`{{execute}}
 
-Open the browser and change the end of the URL from `weather.html` to `weather-api.html`
+Click here to open in the browser: {{TRAFFIC_HOST1_80}}/weather-api.html.
 
 Did it work? If not, try to find the mistake. As always, don't wait too long to ask for help.
 
