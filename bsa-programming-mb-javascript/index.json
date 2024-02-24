@@ -37,15 +37,15 @@
         },
         {
           "file": "weather.html",
-          "target": "javascript"
+          "target": "weather"
         },
         {
           "file": "weather-api.html",
-          "target": "javascript"
+          "target": "weather-api"
         },
         {
           "file": "weather-api.js",
-          "target": "javascript"
+          "target": "weather-api"
         }
       ]
     }
