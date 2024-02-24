@@ -33,7 +33,7 @@
         },
         {
           "file": "weather-original.html",
-          "target": "javascript"
+          "target": "backup"
         },
         {
           "file": "weather.html",
@@ -41,6 +41,10 @@
         },
         {
           "file": "weather-api.html",
+          "target": "javascript"
+        },
+        {
+          "file": "weather-api.js",
           "target": "javascript"
         }
       ]
