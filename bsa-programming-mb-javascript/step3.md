@@ -8,9 +8,17 @@ Let's integrate this page with a weather API! API stands for Application Program
 
 Turns out there is a weather API (several actually) that we can use to get the current temp for a location. We'll use that to get the current temp, then use our advice function to get the proper advice, then display it on the screen.
 
-Let's start by making another copy of our `weather.html` file. Rename the new copy to `weather-api.html` (right-click -> rename). We'll also be externalizing our javascript to its own file (this is good practice), so create a new file in the javascript directory and call it `weather-api.js`.
+Let's start by locating the files for our new project.
 
-Open `javascript/weather-api.html`{{open}} and replace the temp field:
+Under the `weather-api` directory, you should see 2 files:
+* `weather-api/weather-api.html`
+* `weather-api/weather-api.js`
+
+`weather-api.html` will be our new weather page. Go ahead and copy the contents of your modified `weather.html` page to `weather-api/weather-api.html`. Click this to copy your changes automatically: `cp weather/weather.html weather-api/weather-api.html`{{execute}}
+
+It is good practice to externalize your javascript to its own file, so we'll use `weather-api/weather-api.js` for that.
+
+Open `weather-api/weather-api.html`{{open}} and replace the temp field:
 
 ```
 <p>
@@ -36,12 +44,12 @@ Next, add a placeholder for the location.
 </h2>
 ``` {{copy}}
 
-Finally, cut all the code between the `<script>` and `</script>` tags and move it to `javascript/weather-api.js`{{open}}. 
+Finally, cut all the code between the `<script>` and `</script>` tags and move it to `weather-api/weather-api.js`{{open}}. 
 
 * Note: leave this line alone:
 `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>`
 
-Replace the now-empty script tags (`<script></script>`) in `weather-api.html` with this: `<script src="weather-api.js"></script>` to reference the new javascript file.
+Replace the now empty script tags (`<script></script>`) in `weather-api.html` with this: `<script src="weather-api.js"></script>` to reference the new javascript file.
 
 Next, replace the `fetchWeather` function in `weather-api.js` with the following:
 
@@ -88,7 +96,7 @@ $('#zipCode').on('keypress', function (e) {
 });
 ```{{copy}}
 
-Copy the files to the web server: `cp javascript/weather-api.* /var/www/html`{{execute}}
+Copy the files to the web server: `cp weather-api/weather-api.* /var/www/html`{{execute}}
 
 Open the browser and change the end of the URL from `weather.html` to `weather-api.html`
 

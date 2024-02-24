@@ -18,11 +18,11 @@ If you want, you can clear all the junk out of the terminal with this command:
 
 `clear`{{execute}}
 
-Take a look at the top-right pane. You will see a code editor called VS Code. This is a real IDE used by professional programmers. Under the ROOT section, you should see a directory called 'javascript'. Expand it.
+Take a look at the top-right pane. You will see a code editor called VS Code. This is a real IDE used by professional programmers. Under the ROOT section, you should see a directory called 'weather'. Expand it.
 
 Click on the file called `weather.html`. This is the sample web page we will use in this project.
 
-If you want to be safe, backup this file now by right clicking the file name and choose 'copy'. Then right click on the 'javascript' directory and choose 'paste'. it should create a copy named `weather copy.html`. Now you can refer back to it if you accidentally make a mistake.
+If you accidentally make a mistake, there is a copy of the original `weather.html` file under `backup`.
 
 Next, click here: {{TRAFFIC_HOST1_80}}. This button and it will open a browser that is pointed at your killercoda environment using port 80. 80 is the standard web port. You should see a 'Welcome to nginx!' message.
 
