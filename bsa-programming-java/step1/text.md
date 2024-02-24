@@ -29,7 +29,7 @@ You can clear all the junk out of the terminal with this command:
 class JavaExample {
   @RequestMapping("/")
   String hello() {
-    "Don't look!! This is a trade Secret!"
+    "<h1>Don't look!! This is a trade Secret!</h1>\n<p>Bacon ipsum dolor amet tail turkey pancetta picanha filet mignon swine tongue kielbasa short loin. Shoulder beef venison ribeye cow frankfurter, chicken tenderloin kielbasa leberkas ham hock pork sirloin prosciutto t-bone. Ground round biltong corned beef short ribs chicken. Flank fatback chicken brisket chislic burgdoggen. Tenderloin t-bone pork loin venison, filet mignon ground round short loin pork. Pork burgdoggen pork chop short loin turkey shank hamburger ball tip ham short ribs.</p>"
   }
 }
 ```{{copy}}
